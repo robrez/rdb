@@ -1,0 +1,1 @@
+tables=user_id,userid_ext  package=com.rdb.util output-directory=C:\dbgen host=jdbc:postgresql://url.com:5432/dbname user=user pw=password
