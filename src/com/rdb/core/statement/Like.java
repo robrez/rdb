@@ -8,8 +8,8 @@ import com.rdb.core.Column;
  */
 public class Like implements Expression {
 
-    private Column<String> column1;
-    private String[] values;
+    private final Column<String> column1;
+    private final String[] values;
 
     private Like(Column<String> column, String... values) {
         this.column1 = column;

@@ -15,4 +15,8 @@ public class StringColumn extends BasicColumn<String> {
     public Like like(String value) {
         return Like.like(this, value);
     }
+
+    public Like like(String ... values) {
+        return Like.like(this, values);
+    }
 }
